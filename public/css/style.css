@@ -1,0 +1,276 @@
+body {
+    overflow-x: hidden; /* Mencegah scroll horizontal */
+    width: 100%; /* Pastikan body mengambil seluruh lebar layar */
+}
+.container-fluid {
+    padding: 0px 25px 0px 25px; /* Remove all padding */
+    background-color: #000000;
+}
+
+.navbar {
+    width: 100%;
+    z-index: 1030; /* Ensures it stays above other content */
+    position: fixed; /* Make it fixed at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove any margin */
+}
+
+.navbar-nav .nav-link {
+    color: #FCFEFE; /* White color */
+}
+.navbar-collapse{
+    padding: 0px 100px 0px 100px;
+}
+
+/* Header */
+header {
+    position: relative;
+    width: 100%; /* Pastikan elemen mengambil 100% dari lebar layar */
+    min-height: 100vh;/* Atur tinggi agar pas sesuai tampilan, misalnya 100% tinggi viewport */
+    background-image: url('asset/img/background.jpg'); /* Atur gambar latar */
+    background-size: cover; /* Gambar akan menutupi seluruh elemen */
+    background-position: center; /* Gambar akan di tengah */
+    background-repeat: no-repeat; /* Gambar tidak diulang */
+    background-attachment: fixed; /* Gambar tetap pada posisinya saat di-scroll */
+    overflow: hidden; /* Mencegah konten meluap ke samping */
+}
+
+
+header .title{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 100px;
+ }
+
+ /* card header */
+ .cards{
+    position:absolute;
+    width: 100%;
+    margin-top: -70px;
+    margin-left: 75px;
+ }
+ 
+ /* section 1 */
+ .photos img {
+    display: block;
+    margin: 0 auto; /* Ini akan memastikan gambar berada di tengah */
+    max-width: 100%; /* Memastikan gambar tidak melebihi ukuran kolom */
+    height: auto; /* Menjaga aspek rasio gambar */
+}
+section .executif .photos img {
+    margin-left: 0; /* Pastikan margin tidak mempengaruhi posisi gambar */
+}
+
+/* Section 2 */
+
+.services .title {
+    margin-top: 100px;
+    
+}
+.services .row {
+    margin-top: 100px;
+    padding: 0px 200px 0px 200px;
+}
+.card-service {
+    
+  }
+  .list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.title-serv{
+    font-size: 26px;
+}
+.par-serve{
+    text-align: justify;
+}
+
+.list-item {
+    flex-basis: 45%; /* Adjust this percentage to control item width */
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.services .under{
+    margin-top: -23px;
+}
+
+.booking{
+    
+    position: relative;
+}
+.par-booking{
+    text-align: justify;
+    margin-bottom: 100px;
+}
+.booking .row {
+    
+    padding: 0px 200px 0px 200px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-view-profile {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0; 
+    transition: background-color 0.3s;
+}
+
+.btn-view-profile:hover {
+    background-color: #333;
+}
+body {
+    overflow-x: hidden; /* Mencegah scroll horizontal */
+    width: 100%; /* Pastikan body mengambil seluruh lebar layar */
+}
+.container-fluid {
+    padding: 0px 25px 0px 25px; /* Remove all padding */
+    background-color: #000000;
+}
+
+.navbar {
+    width: 100%;
+    z-index: 1030; /* Ensures it stays above other content */
+    position: fixed; /* Make it fixed at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove any margin */
+}
+
+.navbar-nav .nav-link {
+    color: #FCFEFE; /* White color */
+}
+.navbar-collapse{
+    padding: 0px 100px 0px 100px;
+}
+
+/* Header */
+header {
+    position: relative;
+    width: 100%; /* Pastikan elemen mengambil 100% dari lebar layar */
+    min-height: 100vh;/* Atur tinggi agar pas sesuai tampilan, misalnya 100% tinggi viewport */
+    background-image: url('asset/img/background.jpg'); /* Atur gambar latar */
+    background-size: cover; /* Gambar akan menutupi seluruh elemen */
+    background-position: center; /* Gambar akan di tengah */
+    background-repeat: no-repeat; /* Gambar tidak diulang */
+    background-attachment: fixed; /* Gambar tetap pada posisinya saat di-scroll */
+    overflow: hidden; /* Mencegah konten meluap ke samping */
+}
+
+
+header .title{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 100px;
+ }
+
+ /* card header */
+ .cards{
+    position:absolute;
+    width: 100%;
+    margin-top: -70px;
+    margin-left: 75px;
+ }
+ 
+ /* section 1 */
+ .photos img {
+    display: block;
+    margin: 0 auto; /* Ini akan memastikan gambar berada di tengah */
+    max-width: 100%; /* Memastikan gambar tidak melebihi ukuran kolom */
+    height: auto; /* Menjaga aspek rasio gambar */
+}
+section .executif .photos img {
+    margin-left: 0; /* Pastikan margin tidak mempengaruhi posisi gambar */
+}
+
+/* Section 2 */
+
+.services .title {
+    margin-top: 100px;
+    
+}
+.services .row {
+    margin-top: 100px;
+    padding: 0px 200px 0px 200px;
+}
+.card-service {
+    
+  }
+  .list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.title-serv{
+    font-size: 26px;
+}
+.par-serve{
+    text-align: justify;
+}
+
+.list-item {
+    flex-basis: 45%; /* Adjust this percentage to control item width */
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.services .under{
+    margin-top: -23px;
+}
+
+.booking{
+    
+    position: relative;
+}
+.par-booking{
+    text-align: justify;
+    margin-bottom: 100px;
+}
+.booking .row {
+    
+    padding: 0px 200px 0px 200px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-view-profile {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0; 
+    transition: background-color 0.3s;
+}
+
+.btn-view-profile:hover {
+    background-color: #333;
+}
